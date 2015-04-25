@@ -13,5 +13,7 @@
   <preference name="android-maxSdkVersion" value="21" />
   <preference name="android-targetSdkVersion" value="21" />
   <vs:plugin name="org.apache.cordova.network-information" version="0.2.12" />
+  <vs:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+  <vs:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
   <vs:platformSpecificValues />
 </widget>
