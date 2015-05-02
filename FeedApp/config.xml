@@ -2,7 +2,7 @@
 <widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.msk.FeedApp" android-versionCode="1" version="0.1.0.0" xmlns="http://www.w3.org/ns/widgets">
   <name>MskFeed</name>
   <description>App that aims to maintain a collection of various feeds from various sources.</description>
-  <author href="http://cordova.io" email="dev@cordova.apache.org">Msk</author>
+  <author href="http://msk.mini.pw.edu.pl" email="msk@kni.edu.pl">Msk</author>
   <content src="index.html" />
   <access origin="*" />
   <preference name="SplashScreen" value="screen" />

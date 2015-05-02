@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Add new feed</title>
+</head>
+<body>
+    <div id="addfeed-page" data-role="page" data-title="Add new feed">
+        <header data-role="header" data-back-btn="true">
+            <a href="index.html" class="ui-btn ui-icon-delete ui-btn-icon-left"
+               data-rel="back">Back</a>
+            <h1>Add new feed</h1>
+        </header>
+
+        <div data-role="content">
+            <form id="addfeed-form" name="addfeed-form" action="addfeed.html">
+                <div data-role="fieldcontain">
+                    <label for="feed-url">Feed URL:</label>
+                    <input type="url" id="feed-url" name="feed-url" required="required" />
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="feed-name">Feed name:</label>
+                    <input type="text" id="feed-name" name="feed-name" required="required"/>
+                </div>
+                <input type="submit" value="Add new feed to collection"/>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

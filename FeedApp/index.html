@@ -1,16 +1,37 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FeedApp</title>
 
     <!-- FeedApp references -->
-    <link href="css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+    <link href="css/index.css" rel="stylesheet"/>
+    
 </head>
 <body>
-    <p>Hello, your application is ready!</p>
+    <div data-role="page">
+        <header data-role="header" data-back-btn="true">
+            <h1 class="topbar">MskFeedApp</h1>
+            <a href="settings.html" id="settingsButton" class="ui-btn-right" data-role="button" data-icon="gear">Settings</a>
+        </header>
 
-    <!-- Cordova reference, this is added to your app when it's built. -->
+        <div data-role="content">
+            <p>
+                This is MskFeedApp. It basically aggregates your feeds from various sources. <br/> <h2>One app to rule them all!</h2>
+            </p>
+            <a href="addfeed.html" data-role="button">Add new feed</a>
+            <a href="feedslist.html" data-role="button">List all feeds</a>
+        </div>
+
+        <footer data-role="footer" data-position="fixed">
+            <h2>&copy; Msk, 2015</h2>
+        </footer>
+    </div>
+<!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="scripts/jquery-2.1.3.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.js"></script>
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
 

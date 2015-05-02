@@ -110,10 +110,12 @@
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="addfeed.html" />
     <Content Include="css\jquery.mobile-1.4.5.css" />
     <Content Include="css\jquery.mobile.icons-1.4.5.css" />
     <Content Include="css\jquery.mobile.structure-1.4.5.css" />
     <Content Include="css\jquery.mobile.theme-1.4.5.css" />
+    <Content Include="feedslist.html" />
     <Content Include="images\ajax-loader.gif" />
     <Content Include="images\icons-png\action-black.png" />
     <Content Include="images\icons-png\action-white.png" />
@@ -317,6 +319,8 @@
     <Content Include="images\icons-svg\video-white.svg" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
+    <Content Include="settings.html" />
+    <Content Include="showfeed.html" />
     <Folder Include="merges\ios\" />
     <Content Include="merges\windows\scripts\platformOverrides.js" />
     <Content Include="merges\windows\scripts\winstore-jscompat.js" />
