@@ -319,6 +319,8 @@
     <Content Include="images\icons-svg\video-white.svg" />
     <Content Include="merges\android\scripts\android2.3-jscompat.js" />
     <Content Include="merges\android\scripts\platformOverrides.js" />
+    <Content Include="scripts\application.js" />
+    <Content Include="scripts\feed.js" />
     <Content Include="settings.html" />
     <Content Include="showfeed.html" />
     <Folder Include="merges\ios\" />
